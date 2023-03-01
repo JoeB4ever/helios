@@ -1940,6 +1940,8 @@ select.form-control:focus::-ms-value {
   width: 100%;
 }
 
+.forms {padding-left: 100px; padding-right: 100px
+}
 .col-form-label {
   padding-top: calc(0.375rem + 1px);
   padding-bottom: calc(0.375rem + 1px);
@@ -5132,7 +5134,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 2rem 2rem;
+    padding: 2rem 2rem;font
   }
 }
 
