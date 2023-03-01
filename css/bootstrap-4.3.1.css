@@ -234,7 +234,8 @@ label {
 .box_section h2 {margin: 0px 0px 0px 0px;}
 .box_container {margin: 0px 0px 0px 0px;display: flex;flex-flow: wrap;justify-content: center;}
 	.box_container {margin: 0px 0px 0px 0px;}
-
+.box_section {font; bahnsh}
+.box_section {font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
 button {
   border-radius: 0;
 }
@@ -3417,7 +3418,7 @@ input[type="button"].btn-block {
 .hover_text img {position: absolute;left: -11px;top: 65px;}
 .individual_box:nth-child(5n+4) .hover_text, .individual_box:nth-child(5n+5) .hover_text {left: inherit;right: 106%;}
 .individual_box:nth-child(5n+4) .hover_text img, .individual_box:nth-child(5n+5) .hover_text img {transform: rotate(180deg);left: inherit;right: -11px;}
-	.hover_text {left: 0px !important;right: 0px !important;width: 210px;text-align: center;}
+	.hover_text {left: 0px !important;right: 0px !important;width: 250px;text-align: center;}
 	.hover_text img {display: none;}
 	.hover_text p {font-size: 14px;}
 
@@ -4075,11 +4076,12 @@ input[type="button"].btn-block {
 .image_text img {height: 64px;}
 .image_text p {margin: 15px 0px 0px 0px;font-family: montserratsemibold;color: #33394A;font-size: 17px;line-height: 20px;}
 
-.individual_box {width: 210px;height: 190px;border: 1px solid rgba(204, 204, 204, 0.3);border-radius: 5px;margin: 10px;position: relative;cursor: pointer;}
-.individual_box:hover {border: 2px solid #5EA446;}
-.individual_box:hover .hover_text {display: block;padding: 25px;}
-.individual_box:nth-child(5n+4) .hover_text, .individual_box:nth-child(5n+5) .hover_text {left: inherit;right: 106%;}
-.individual_box:nth-child(5n+4) .hover_text img, .individual_box:nth-child(5n+5) .hover_text img {transform: rotate(180deg);left: inherit;right: -11px;}
+.individual_box {width: 250px;height: 190px;border: 1px solid rgba(204, 204, 204, 0.3);border-radius: 5px;margin: 10px;position: relative;cursor: pointer;background: #e9ecef}
+.individual_box:hover {border: 1px solid #000000;}
+.individual_box:hover .hover_text {display: block;padding: 10px;}
+.individual_box:nth-child(5n+4) .hover_text, .individual_box:nth-child(5n+5) .hover_text {center: inherit;right: 106%;}
+.individual_box:nth-child(5n+4) .hover_text img, .individual_box:nth-child(5n+5) .hover_text img {transform: rotate(180deg);left: inherit;right: -1px;}
+
 .nav {
   display: -ms-flexbox;
   display: flex;
