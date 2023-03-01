@@ -1940,7 +1940,7 @@ select.form-control:focus::-ms-value {
   width: 100%;
 }
 
-.forms {padding-left: 100px; padding-right: 100px
+.forms {padding-left: 150px; padding-right: 150px
 }
 .col-form-label {
   padding-top: calc(0.375rem + 1px);
@@ -5130,6 +5130,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 1rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+	font-family: Bahnschrift Light; Rubik, sand-serif;
+
 }
 
 @media (min-width: 576px) {
