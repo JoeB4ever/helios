@@ -583,7 +583,7 @@ pre code {
   }
 }
 
-@media (min-width: 1342px) {
+@media (min-width: 992px) {
   .container {
     max-width: 1140px;
   }
@@ -1351,7 +1351,7 @@ pre code {
   }
 }
 
-@media (min-width: 1342px) {
+@media (min-width: 992px) {
   .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1424,6 +1424,7 @@ pre code {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+
   }
   .order-xl-first {
     -ms-flex-order: -1;
@@ -4368,7 +4369,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 1342px) {
+@media (max-width: 992px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
@@ -5132,7 +5133,11 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 1rem;
   border-radius: 0.3rem;
 	font-family: Bahnschrift Light; Rubik, sand-serif;
-background-image: url("../images/headerbg.jpg")
+background-image: url("../images/headerbg.jpg"); no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 @media (min-width: 576px) {
