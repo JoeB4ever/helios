@@ -4079,10 +4079,10 @@ input[type="button"].btn-block {
 
 .image_text {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
 .image_text img {height: 64px;}
-.image_text p {margin: 15px 0px 0px 0px;font-family: montserratsemibold;color: #33394A;font-size: 17px;line-height: 20px;}
+.image_text p {margin: 0px 0px 0px 0px;font-family: montserratsemibold;color: #33394A;font-size: 35px;line-height: 40px;}
 
 .individual_box {width: 250px;height: 190px;border: 1px solid rgba(204, 204, 204, 0.3);border-radius: 5px;margin: 10px;position: relative;cursor: pointer;background: #fdb730}
-.individual_box:hover {border: 1px solid #000000;}
+.individual_box:hover {border: 0px solid #000000;}
 .individual_box:hover .hover_text {display: block;padding: 10px;}
 .individual_box:nth-child(5n+4) .hover_text, .individual_box:nth-child(5n+5) .hover_text {center: inherit;right: 106%;}
 .individual_box:nth-child(5n+4) .hover_text img, .individual_box:nth-child(5n+5) .hover_text img {transform: rotate(180deg);left: inherit;right: -1px;}
