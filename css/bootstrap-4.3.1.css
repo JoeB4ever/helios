@@ -5132,7 +5132,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 2rem 1rem;
   margin-bottom: 1rem;
   border-radius: 0.3rem;
-	font-family: serif; Rubik, sand-serif;
+	font-family: serif; Rubik; sand-serif;
 background-image: url("../images/headerbg.png"); no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -5147,8 +5147,8 @@ background-image: url("../images/headerbg.png"); no-repeat center center fixed;
 }
 
 .jumbotron-fluid {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 2rem;
+  padding-left: 2rem;
   border-radius: 0;
 }
 
