@@ -15,7 +15,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="icon" href="images/logo.png">
     <title>Helios Psychiatry and Counseling</title>
-
+<script type="text/javascript">	  
+	  window.addEventListener("load", function() {
+  const form = document.getElementById('myform');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("You've subscribed — check your inbox shortly for a message!");
+    })
+  });
+});
+	  </script>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 
@@ -222,10 +238,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <br>
        <hr>
        <div class="row text-center">
-			 <div class="col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">Please review our updated policies
+			 <div class="col-lg-6 offset-lg-7 offset-xl-3 col-xl-3">Please review our updated policies
 			 <p class="lead">
           <a class="btn btn-primary btn-lg" href="directory/policies.pdf" target="_blank" role="button" download="Policies">Policies</a>
 		</p></div>
+			 <div class="col-lg-6 offset-lg-7 offset-xl-0 col-xl-3">
+				 <form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycby4Ggw1WuQX_ivDrhyyIGZmnSciq4iwzbwOWiZQk_a73o06USSKBUqV2KvsdFy1S2wQ/exec"
+	id="myform"
+>
+Join our Newsletter!<br>
+Name:<br />
+<input name="Name" type="text">
+<br />
+Email:<br />
+  <input name="Email" type="email">
+  
+  <button type="submit">Subscribe!</button>
+</form>
+	     </div>
 		</div>
 
       
