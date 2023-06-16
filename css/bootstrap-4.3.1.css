@@ -30,7 +30,7 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1500px;
+  --breakpoint-xl: 1990px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -4433,7 +4433,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1990px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -4441,7 +4441,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1990px) {
   .navbar-expand-xl {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -5540,7 +5540,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1990px) {
   .list-group-horizontal-xl {
     -ms-flex-direction: row;
     flex-direction: row;
@@ -6007,7 +6007,7 @@ a.close.disabled {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1990px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6927,7 +6927,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1990px) {
   .d-xl-none {
     display: none !important;
   }
