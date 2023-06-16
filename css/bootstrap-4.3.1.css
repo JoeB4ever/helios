@@ -3138,7 +3138,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1500px) {
   .dropdown-menu-xl-left {
     right: auto;
     left: 0;
