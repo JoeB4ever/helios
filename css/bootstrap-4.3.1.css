@@ -30,7 +30,7 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1990px;
+  --breakpoint-xl: 1900px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -2406,7 +2406,6 @@ textarea.form-control {
     padding: 0.375rem 0.75rem;
     font-size: 2rem;
     line-height: 1.5;
-    border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2438,6 +2437,7 @@ fieldset:disabled a.btn {
 .btn-primary {
     color: #000000;
     background-color: #fdb730;
+    border-radius: 20px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
@@ -4219,9 +4219,10 @@ nav .nav-item .nav-link disabled {
     z-index: 99999;
     border-radius: 20px;
     padding-left: 20px;
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 1.75rem;
+    margin-left: 5%;
 }
 
 .navbar > .container,
@@ -4400,7 +4401,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1900px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4434,7 +4435,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 1990px) {
+@media (max-width: 1900px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -4442,7 +4443,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1900px) {
   .navbar-expand-xl {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4617,17 +4618,17 @@ nav .nav-item .nav-link disabled {
 }
 
 .card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
 }
 
 .card > hr {
@@ -5542,7 +5543,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1900px) {
   .list-group-horizontal-xl {
     -ms-flex-direction: row;
     flex-direction: row;
@@ -6009,7 +6010,7 @@ a.close.disabled {
   }
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1900px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6929,7 +6930,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1900px) {
   .d-xl-none {
     display: none !important;
   }
