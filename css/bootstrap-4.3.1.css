@@ -1492,7 +1492,6 @@ pre code {
   }
   .offset-xl-1 {
     margin-left: 8.333333%;
-    font-size: 1.5rem;
   }
   .offset-xl-2 {
     margin-left: 16.666667%;
@@ -4674,10 +4673,10 @@ nav .nav-item .nav-link disabled {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 3rem;
 }
 
 .card-header:first-child {
