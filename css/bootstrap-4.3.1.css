@@ -30,7 +30,7 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1900px;
+  --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -51,6 +51,16 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 99999;
+}
+
 
 body {
     margin: 0;
@@ -590,11 +600,10 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .row {
@@ -4205,24 +4214,23 @@ nav .nav-item .nav-link disabled {
 .navbar {
     position: fixed;
     top: 0;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 0.5rem;
-    padding-right: 20px;
     padding-bottom: 0.5rem;
     z-index: 99999;
-    border-radius: 20px;
-    padding-left: 20px;
-    width: 90%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    font-size: 1.75rem;
-    margin-left: 5%;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-left: 15px;
+    width: 100%;
 }
 
 .navbar > .container,
@@ -4234,7 +4242,7 @@ nav .nav-item .nav-link disabled {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .navbar-brand {
@@ -4401,12 +4409,13 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1200px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    text-align: center;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -4435,7 +4444,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1200px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -4443,7 +4452,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1200px) {
   .navbar-expand-xl {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -5543,7 +5552,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1200px) {
   .list-group-horizontal-xl {
     -ms-flex-direction: row;
     flex-direction: row;
@@ -6010,7 +6019,7 @@ a.close.disabled {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1200px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6930,7 +6939,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1200px) {
   .d-xl-none {
     display: none !important;
   }
