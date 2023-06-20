@@ -5164,7 +5164,6 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-    margin-bottom: 2rem;
     border-radius: 0.3rem;
     background-image: url("../images/headerbg.jpg");
     no-repeat: center fixed;
