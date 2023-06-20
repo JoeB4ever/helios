@@ -42,10 +42,11 @@
 }
 
 html {
-  font-family: Century gothic, Tw Cen MT, serif, camsans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: Century gothic, Tw Cen MT, serif, camsans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: auto;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -72,6 +73,7 @@ body {
     text-align: left;
     background-color: #F0F0F0;
     text-shadow: 0px 0px;
+    width: auto;
 
 
 }
@@ -4362,7 +4364,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1119.9px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
@@ -4370,7 +4372,8 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1199.9
+	px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4404,7 +4407,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
@@ -4412,13 +4415,15 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1700px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
     text-align: center;
+    font-style: 2rem;
+    font-size: 2rem;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
