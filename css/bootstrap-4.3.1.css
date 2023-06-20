@@ -1499,6 +1499,7 @@ pre code {
   .offset-xl-0 {
     margin-left: 0;
   }
+
   .offset-xl-1 {
     margin-left: 8.333333%;
   }
@@ -3093,6 +3094,7 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
+	max-width: 252px;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1.2rem;
