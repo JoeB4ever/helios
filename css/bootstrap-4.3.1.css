@@ -4455,7 +4455,7 @@ nav .nav-item .nav-link disabled {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1700px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -10133,4 +10133,3 @@ footer {
 	width: 100%;
 	text-align: center;
 }
-/*# sourceMappingURL=bootstrap.css.map */
